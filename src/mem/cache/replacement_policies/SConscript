@@ -32,7 +32,8 @@ SimObject('ReplacementPolicies.py', sim_objects=[
     'BaseReplacementPolicy', 'DuelingRP', 'FIFORP', 'SecondChanceRP',
     'LFURP', 'LRURP', 'BIPRP', 'MRURP', 'RandomRP', 'BRRIPRP', 'SHiPRP',
     'SHiPMemRP', 'SHiPPCRP', 'TreePLRURP', 'WeightedLRURP'])
-
+SimObject('WEA.py', sim_objects=['WEA'], enums=[])
+Source('wea_rp.cc')
 Source('bip_rp.cc')
 Source('brrip_rp.cc')
 Source('dueling_rp.cc')

@@ -40,7 +40,8 @@ SimObject(
         "TaggedSetAssociative",
     ],
 )
-
+SimObject('WEASetAssoc.py', sim_objects=['WEASetAssoc'], enums=[])
+Source('wea_set_assoc.cc')
 Source("base.cc")
 Source("base_set_assoc.cc")
 Source("compressed_tags.cc")
