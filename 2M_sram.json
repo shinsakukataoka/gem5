@@ -1,0 +1,38 @@
+{
+  "file": "m5out-2M-l3-sram-fa/stats.txt",
+  "llc_parts": [
+    "system.l3"
+  ],
+  "sim_seconds": 0.01,
+  "parts": [
+    {
+      "name": "system.l3",
+      "hits": 0.0,
+      "misses": 1622236.0,
+      "writebacks": 1294667.0,
+      "profile": {
+        "Edyn_hit": 0.565,
+        "Edyn_miss": 0.011,
+        "Edyn_write": 0.537,
+        "Pleak": 3.438
+      },
+      "E_dyn_nJ": 713080.775,
+      "E_leak_J": 0.03438,
+      "E_total_J": 0.035093080775,
+      "features": {
+        "unique_write_lines": 1294667.0,
+        "unique_read_lines": 561198.0,
+        "unique_write_bytes": 82858688.0,
+        "unique_read_bytes": 35916672.0,
+        "p90_write_lines": 1165200.3,
+        "p90_read_lines": 505078.2,
+        "total_read_accesses": 561198.0,
+        "total_write_exclusive": 1061038.0
+      }
+    }
+  ],
+  "E_dyn_nJ_total": 713080.775,
+  "E_leak_J_total": 0.03438,
+  "E_total_J_total": 0.035093080775,
+  "ED2P": 3.5093080775e-06
+}

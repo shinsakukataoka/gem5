@@ -1,0 +1,3 @@
+file,sim_seconds,E_total_J,ED2P,llc_parts,unique_write_lines,unique_read_lines,unique_write_bytes,unique_read_bytes,p90_write_lines,p90_read_lines,energy_norm,ed2p_norm,speedup_vs_baseline
+2M_sram.json,0.01,0.035093080775,3.5093080775e-06,system.l3,1294667.0,561198.0,82858688.0,35916672.0,1165200.3,505078.2,1.0,1.0,1.0
+2M_nvm.json,0.01,0.00509716292,5.097162920000001e-07,system.l3,1248828.0,561198.0,79924992.0,35916672.0,1123945.2,505078.2,0.14524694918296185,0.14524694918296185,1.0

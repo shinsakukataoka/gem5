@@ -3,7 +3,7 @@ import argparse
 import m5
 from m5.objects import (
     System, SrcClockDomain, VoltageDomain, SystemXBar, L2XBar,
-    Cache, SimpleMemory, AddrRange, TimingSimpleCPU, Process, Root, SEWorkload
+    Cache, SimpleMemory, AddrRange, AtomicSimpleCPU, Process, Root, SEWorkload
 )
 
 try:
@@ -49,7 +49,7 @@ system.cache_line_size = int(args.line_size)
 system.membus = SystemXBar()
 system.l2bus  = L2XBar()
 
-system.cpu = TimingSimpleCPU()
+system.cpu = AtomicSimpleCPU()
 if hasattr(system.cpu, "createInterruptController"):
     system.cpu.createInterruptController()
     ic = system.cpu.interrupts[0]

@@ -1,0 +1,38 @@
+{
+  "file": "m5out-8M-l3-nvm-fa/stats.txt",
+  "llc_parts": [
+    "system.l3"
+  ],
+  "sim_seconds": 0.01,
+  "parts": [
+    {
+      "name": "system.l3",
+      "hits": 0.0,
+      "misses": 937746.0,
+      "writebacks": 806495.0,
+      "profile": {
+        "Edyn_hit": 0.173,
+        "Edyn_miss": 0.058,
+        "Edyn_write": 1.644,
+        "Pleak": 0.295
+      },
+      "E_dyn_nJ": 1380267.048,
+      "E_leak_J": 0.00295,
+      "E_total_J": 0.004330267048,
+      "features": {
+        "unique_write_lines": 806495.0,
+        "unique_read_lines": 184.0,
+        "unique_write_bytes": 51615680.0,
+        "unique_read_bytes": 11776.0,
+        "p90_write_lines": 725845.5,
+        "p90_read_lines": 165.6,
+        "total_read_accesses": 184.0,
+        "total_write_exclusive": 937562.0
+      }
+    }
+  ],
+  "E_dyn_nJ_total": 1380267.048,
+  "E_leak_J_total": 0.00295,
+  "E_total_J_total": 0.004330267048,
+  "ED2P": 4.3302670480000003e-07
+}

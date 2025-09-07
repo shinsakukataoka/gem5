@@ -1,0 +1,20 @@
+{
+  "file": "m5out-2M-l3-hyb-fa/stats.txt",
+  "l2s": [
+    "system.l2"
+  ],
+  "sim_seconds": 0.0,
+  "hits": 0.0,
+  "misses": 0.0,
+  "writebacks": 0.0,
+  "profile": {
+    "Edyn_hit": 0.173,
+    "Edyn_miss": 0.058,
+    "Edyn_write": 1.644,
+    "Pleak": 0.295
+  },
+  "E_dyn_nJ": 0.0,
+  "E_leak_J": 0.0,
+  "E_total_J": 0.0,
+  "ED2P": 0.0
+}
